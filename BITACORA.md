@@ -99,7 +99,7 @@ $: arrange( // SNARE GHOST
 
 <summary>STRUDEL RPL</summary>
 
-### CÓDIGO DE LA EXPERIMENTACIÓN SONORA - RESULTADO ACTIVIDAD 9
+### CÓDIGO DE LA EXPERIMENTACIÓN SONORA - RESULTADO ACTIVIDAD 15
 
 ```js
 // Strudel example for strudel_visual_router_v2
