@@ -132,5 +132,9 @@ $harmony: stack(harmony, harmony.osc())
 ```
 </details>
 
+### LINK - VIDEO DE ENSAYO 
+
+https://youtu.be/mV1SlmNcnww
+
 
 
