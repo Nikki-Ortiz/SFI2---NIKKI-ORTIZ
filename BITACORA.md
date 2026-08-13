@@ -89,3 +89,48 @@ $: arrange( // SNARE GHOST
 ).color("pink") // snare ghost = rosa
 ```
 </details>
+
+## INVESTIGACIÓN
+### ACTIVIDAD 11-15
+
+**CÓDIGO**
+
+<details>
+
+<summary>STRUDEL RPL</summary>
+
+### CÓDIGO DE LA EXPERIMENTACIÓN SONORA - RESULTADO ACTIVIDAD 9
+
+```js
+// Strudel example for strudel_visual_router_v2
+const { visualid } = createParams('visualid')
+
+setcpm(24.5)
+
+let drum = stack(
+  s("oh:1").beat("3,5,9,13", 16).visualid("holis_oh"),
+  s("hh").beat("0,1,4,6,8,10,12,14", 16),
+  s("cp").beat("4,12", 16),
+  s("bd").beat("0,2,3,7,9,10,15", 16)
+).bank("RolandTr909")
+
+$drum: stack(drum, drum.osc())
+
+let melody = note("[c4 c4 e4 g4 e4 e4 ~ d4 c4 a3 a3 a3 ~ d4 d4 c4]")
+  .sound("piano").legato(1).visualid("holis_melo")
+
+$melody: stack(melody, melody.osc())
+
+let harmony = note("<[f3,a3,c4,e4] [g3,b3,d4,e4] [e3,g3,b3,d4] [a3,c4,e4,b4]>")
+  .sound("piano")
+  .attack(slider(0.233, 0, 1))
+  .lpf(slider(1483.2, 300, 2000))
+  .room(2)
+  .visualid("holis_mony")
+
+$harmony: stack(harmony, harmony.osc())
+```
+</details>
+
+
+
