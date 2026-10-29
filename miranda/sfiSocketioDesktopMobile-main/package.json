@@ -1,0 +1,18 @@
+{
+  "name": "patronus-varita",
+  "version": "1.0.0",
+  "description": "Puente celular -> TouchDesigner: el telefono actua como varita (orientacion apunta, toque confirma) y envia un cursor normalizado por OSC.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cert": "node generar-cert.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2",
+    "osc": "^2.4.5",
+    "selfsigned": "^2.4.1",
+    "socket.io": "^4.8.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

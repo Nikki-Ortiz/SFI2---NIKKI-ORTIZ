@@ -1,0 +1,53 @@
+{
+  "_comentario": "Editar libremente. IMPORTANTE: cada patronus debe tener un modelo 3D con el MISMO nombre entre las entradas de /project1/base1/switch1 (los nullPOP gato, lobo, fenix). Si se agrega uno sin modelo, al usuario le sale la pantalla de texto en vez del animal.",
+  "_rasgos": ["valor", "lealtad", "astucia", "calma", "empatia", "impulso"],
+
+  "preguntas": [
+    {
+      "texto": "Algo se mueve en la oscuridad. Que haces?",
+      "respuestas": [
+        { "texto": "Avanzo hacia el ruido",        "rasgos": { "impulso": 3, "valor": 2 } },
+        { "texto": "Me quedo quieto y escucho",    "rasgos": { "astucia": 3, "calma": 2 } },
+        { "texto": "Busco a alguien mas",          "rasgos": { "empatia": 3, "lealtad": 2 } }
+      ]
+    },
+    {
+      "texto": "Un amigo te oculto algo importante",
+      "respuestas": [
+        { "texto": "Le reclamo de frente",         "rasgos": { "impulso": 3, "valor": 2 } },
+        { "texto": "Averiguo por mi cuenta",       "rasgos": { "astucia": 3, "calma": 1 } },
+        { "texto": "Espero a entender por que",    "rasgos": { "empatia": 3, "calma": 2 } }
+      ]
+    },
+    {
+      "texto": "Que te da mas miedo perder?",
+      "respuestas": [
+        { "texto": "La oportunidad de intentarlo", "rasgos": { "valor": 3, "impulso": 2 } },
+        { "texto": "El control de mi mismo",       "rasgos": { "calma": 3, "astucia": 2 } },
+        { "texto": "A la gente que quiero",        "rasgos": { "empatia": 3, "lealtad": 3 } }
+      ]
+    },
+    {
+      "texto": "Como enfrentas un problema nuevo?",
+      "respuestas": [
+        { "texto": "Pruebo hasta que funcione",    "rasgos": { "impulso": 3, "valor": 2 } },
+        { "texto": "Lo desarmo hasta entenderlo",  "rasgos": { "astucia": 3, "calma": 2 } },
+        { "texto": "Pido ayuda sin pena",          "rasgos": { "empatia": 3, "lealtad": 2 } }
+      ]
+    },
+    {
+      "texto": "En un grupo, tu sueles ser",
+      "respuestas": [
+        { "texto": "Quien decide y arrastra",      "rasgos": { "valor": 3, "impulso": 3 } },
+        { "texto": "Quien observa y aconseja",     "rasgos": { "astucia": 3, "calma": 3 } },
+        { "texto": "Quien sostiene a los demas",   "rasgos": { "lealtad": 3, "empatia": 3 } }
+      ]
+    }
+  ],
+
+  "patronus": [
+    { "nombre": "LOBO",  "icono": "🐺", "rasgos": { "impulso": 3, "valor": 3, "lealtad": 1 } },
+    { "nombre": "GATO",  "icono": "🐈", "rasgos": { "astucia": 3, "calma": 3 } },
+    { "nombre": "FENIX", "icono": "🔥", "rasgos": { "empatia": 3, "lealtad": 3, "valor": 1 } }
+  ]
+}

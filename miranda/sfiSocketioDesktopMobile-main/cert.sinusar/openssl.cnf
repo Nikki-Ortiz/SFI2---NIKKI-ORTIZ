@@ -1,0 +1,18 @@
+[req]
+distinguished_name = dn
+x509_extensions = v3_req
+prompt = no
+
+[dn]
+CN = varita-local
+
+[v3_req]
+subjectAltName = @alt
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+
+[alt]
+DNS.1 = localhost
+IP.1 = 127.0.0.1
+IP.2 = 192.168.40.26

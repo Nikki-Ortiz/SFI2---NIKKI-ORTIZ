@@ -1,0 +1,53 @@
+{
+  "_comentario": "Editar libremente. IMPORTANTE: cada patronus debe tener un modelo 3D con el MISMO nombre entre las entradas de /project1/base1/switch1 (los nullPOP gato, lobo, fenix). Si se agrega uno sin modelo, al usuario le sale la pantalla de texto en vez del animal. Sin tildes ni enies: el text TOP las dibuja mal.",
+  "_rasgos": ["valor", "lealtad", "astucia", "calma", "empatia", "impulso"],
+
+  "preguntas": [
+    {
+      "texto": "Un boggart toma la forma de tu peor miedo",
+      "respuestas": [
+        { "texto": "Lanzo el hechizo de inmediato", "rasgos": { "valor": 3, "impulso": 2 } },
+        { "texto": "Lo observo antes de actuar",    "rasgos": { "astucia": 3, "calma": 2 } },
+        { "texto": "Pienso en quien me da fuerza",  "rasgos": { "empatia": 3, "lealtad": 2 } }
+      ]
+    },
+    {
+      "texto": "El Sombrero duda entre dos casas para ti",
+      "respuestas": [
+        { "texto": "Donde pueda probar mi valor",   "rasgos": { "valor": 3, "impulso": 2 } },
+        { "texto": "Donde pueda aprender mas",      "rasgos": { "astucia": 3, "calma": 2 } },
+        { "texto": "Donde esten los que me importan","rasgos": { "lealtad": 3, "empatia": 2 } }
+      ]
+    },
+    {
+      "texto": "La Sala de los Menesteres se abre. Que hay dentro?",
+      "respuestas": [
+        { "texto": "Un duelo que quiero ganar",     "rasgos": { "impulso": 3, "valor": 2 } },
+        { "texto": "El libro que nadie me presta",  "rasgos": { "astucia": 3, "calma": 2 } },
+        { "texto": "Alguien que ya no esta",        "rasgos": { "empatia": 3, "lealtad": 3 } }
+      ]
+    },
+    {
+      "texto": "Rompes una regla por ayudar a alguien y te descubren",
+      "respuestas": [
+        { "texto": "Lo admito y asumo el castigo",  "rasgos": { "valor": 3, "lealtad": 2 } },
+        { "texto": "Explico por que valia la pena", "rasgos": { "calma": 3, "astucia": 2 } },
+        { "texto": "Callo para no delatar a nadie", "rasgos": { "lealtad": 3, "empatia": 2 } }
+      ]
+    },
+    {
+      "texto": "Tu patronus aparece. Que recuerdo lo invoco?",
+      "respuestas": [
+        { "texto": "La vez que no me rendi",        "rasgos": { "valor": 3, "impulso": 3 } },
+        { "texto": "Una tarde en calma, a solas",   "rasgos": { "calma": 3, "astucia": 3 } },
+        { "texto": "Alguien que nunca me solto",    "rasgos": { "lealtad": 3, "empatia": 3 } }
+      ]
+    }
+  ],
+
+  "patronus": [
+    { "nombre": "LOBO",  "icono": "🐺", "rasgos": { "impulso": 3, "valor": 3, "lealtad": 1 } },
+    { "nombre": "GATO",  "icono": "🐈", "rasgos": { "astucia": 3, "calma": 3 } },
+    { "nombre": "FENIX", "icono": "🔥", "rasgos": { "empatia": 3, "lealtad": 3, "valor": 1 } }
+  ]
+}

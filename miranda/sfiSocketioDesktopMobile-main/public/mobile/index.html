@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Varita</title>
+  <style>
+    /* touch-action: none evita que arrastrar el dedo haga scroll de la pagina
+       en vez de mover la varita. Sin esto el gesto se lo come el navegador. */
+    html, body {
+      margin: 0; padding: 0; height: 100%; overflow: hidden;
+      background: #07080d; touch-action: none; overscroll-behavior: none;
+      -webkit-user-select: none; user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    canvas { display: block; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="sketch.js" defer></script>
+</head>
+<body></body>
+</html>
