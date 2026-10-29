@@ -13,14 +13,16 @@ Nuestro proyecto se basa en un sistema inspirado en el Wizarding World de Harry 
 
 1. Prepara el entorno
 
-Instala TouchDesigner, Node.js, Git Bash y VS Code.
+- Instala TouchDesigner, Node.js, Git Bash y VS Code.
 
 <img width="372" height="159" alt="imagen" src="https://github.com/user-attachments/assets/8e8c885c-fb90-4b63-8d36-b1e690e21c35" />
-<img width="54" height="55" alt="imagen" src="https://github.com/user-attachments/assets/23ab9c7e-b85e-4460-bf65-282ea371fb53" />
+<img width="200" height="150" alt="imagen" src="https://github.com/user-attachments/assets/23ab9c7e-b85e-4460-bf65-282ea371fb53" />
 
-----
-El celular y el computador deben estar en la misma red, o usar un túnel de VS Code (fijarse en el paso 4)
-Necesitaras también una composición de strudel (web)
+---
+
+- El celular y el computador deben estar en la misma red, o usar un túnel de VS Code (fijarse en el paso 4)
+
+- Necesitaras también una composición de strudel (web)
 
 <img width="2488" height="1323" alt="imagen" src="https://github.com/user-attachments/assets/9e082432-33e5-487f-9a02-f6de35324733" />
 
@@ -28,7 +30,7 @@ Necesitaras también una composición de strudel (web)
 
 <details>
 
-<summary> EJEMPLO sections</summary>
+<summary> EJEMPLO </summary>
 
 ### ESTE ES UN EJEMPLO DE LA COMPOSICIÓN DE STRUDEL:
 
